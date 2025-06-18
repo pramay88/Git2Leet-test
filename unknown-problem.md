@@ -1,29 +1,25 @@
 ## Problem: Unknown Problem
-**Difficulty:** Hard  
-**Language:** javascript  
+**Difficulty:** Unknown  
+**Language:** C++  
 **Beats:** Runtime N/A, Memory N/A  
 **Date:** 6/18/2025
 
 ### Problem Link:
-[Unknown Problem](https://leetcode.com/problems/count-subarrays-with-score-less-than-k/description/)
+[Unknown Problem](https://leetcode.com/problems/two-sum/submissions/1668360073/)
 
 ### Solution:
-```js
+```cpp
 class Solution {
 public:
-    long long countSubarrays(vector<int>& nums, long long 
-k) {
-        long long count = 0, sum = 0;
-        int l = 0;
-        for (int r = 0; r < nums.size(); r++) {
-            sum += nums[r];
-            while (sum * (r - l + 1) >= k) {
-                sum -= nums[l];
-                l++;
+    vector<int> twoSum(vector<int>& nums, int target) {
+       unordered_map<int, int> mp;
+        for (int i = 0; i < nums.size(); i++) {
+            if (mp.find(target - nums[i]) != mp.end()) {
+                return {mp[target - nums[i]], i};
             }
-            count += (r - l + 1);
+            mp[nums[i]] = i;
         }
-        return count;
+        return {};
     }
 };
 ```
