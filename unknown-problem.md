@@ -5,7 +5,7 @@
 **Date:** 6/18/2025
 
 ### Problem Link:
-[Unknown Problem](https://leetcode.com/problems/two-sum/)
+[Unknown Problem](https://leetcode.com/problems/two-sum/description/)
 
 ### Solution:
 ```js
