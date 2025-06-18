@@ -1,11 +1,11 @@
 ## Problem: Two Sum
 **Difficulty:** Easy  
 **Language:**   
-**Beats:** Runtime N/A, Memory N/A  
+**Beats:** Runtime N/A, Memory N/AA  
 **Date:** 6/18/2025
 
 ### Problem Link:
-[Two Sum](https://leetcode.com/problems/two-sum/description/)
+[Two Sum](https://leetcode.com/problems/two-sum/)
 
 ### Solution:
 ```
