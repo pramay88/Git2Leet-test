@@ -1,6 +1,6 @@
 ## Problem: Two Sum
 **Difficulty:** Easy  
-**Language:** Unknown  
+**Language:** C++  
 **Beats:** Runtime N/A, Memory N/A  
 **Date:** 6/18/2025
 
@@ -8,7 +8,7 @@
 [Two Sum](https://leetcode.com/problems/two-sum/description/)
 
 ### Solution:
-```unknown
+```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
