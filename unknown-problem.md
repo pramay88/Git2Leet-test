@@ -1,11 +1,11 @@
 ## Problem: Unknown Problem
 **Difficulty:** Unknown  
 **Language:** Unknown  
-**Beats:** Runtime 4, Memory 57.51%  
+**Beats:** Runtime Unknown, Memory Unknown  
 **Date:** 6/18/2025
 
 ### Problem Link:
-[Unknown Problem](https://leetcode.com/problems/two-sum/submissions/1668224407/)
+[Unknown Problem](https://leetcode.com/problems/two-sum/)
 
 ### Solution:
 ```unknown
