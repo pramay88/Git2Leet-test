@@ -1,25 +1,28 @@
 ## Problem: Unknown Problem
-**Difficulty:** Unknown  
-**Language:** Unknown  
-**Beats:** Runtime Unknown, Memory Unknown  
+**Difficulty:** Hard  
+**Language:** javascript  
+**Beats:** Runtime N/A, Memory N/A  
 **Date:** 6/18/2025
 
 ### Problem Link:
-[Unknown Problem](https://leetcode.com/problems/two-sum/)
+[Unknown Problem](https://leetcode.com/problems/count-subarrays-with-score-less-than-k/)
 
 ### Solution:
-```unknown
+```js
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-       unordered_map<int, int> mp;
-        for (int i = 0; i < nums.size(); i++) {
-            if (mp.find(target - nums[i]) != mp.end()) {
-                return {mp[target - nums[i]], i};
+    long long countSubarrays(vector<int>& nums, long long k) {
+        long long count = 0, sum = 0;
+        int l = 0;
+        for (int r = 0; r < nums.size(); r++) {
+            sum += nums[r];
+            while (sum * (r - l + 1) >= k) {
+                sum -= nums[l];
+                l++;
             }
-            mp[nums[i]] = i;
+            count += (r - l + 1);
         }
-        return {};
+        return count;
     }
 };
 ```
