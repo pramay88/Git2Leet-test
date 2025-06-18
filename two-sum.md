@@ -1,14 +1,14 @@
 ## Problem: Two Sum
 **Difficulty:** Easy  
-**Language:** javascript  
+**Language:** Unknown  
 **Beats:** Runtime N/A, Memory N/A  
 **Date:** 6/18/2025
 
 ### Problem Link:
-[Two Sum](https://leetcode.com/problems/two-sum/description/)
+[Two Sum](https://leetcode.com/problems/two-sum/)
 
 ### Solution:
-```js
+```unknown
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
