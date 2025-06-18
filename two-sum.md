@@ -5,7 +5,7 @@
 **Date:** 6/18/2025
 
 ### Problem Link:
-[Two Sum](https://leetcode.com/problems/two-sum/)
+[Two Sum](https://leetcode.com/problems/two-sum/submissions/1668224407/)
 
 ### Solution:
 ```
