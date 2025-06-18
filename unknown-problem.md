@@ -5,13 +5,14 @@
 **Date:** 6/18/2025
 
 ### Problem Link:
-[Unknown Problem](https://leetcode.com/problems/count-subarrays-with-score-less-than-k/)
+[Unknown Problem](https://leetcode.com/problems/count-subarrays-with-score-less-than-k/description/)
 
 ### Solution:
 ```js
 class Solution {
 public:
-    long long countSubarrays(vector<int>& nums, long long k) {
+    long long countSubarrays(vector<int>& nums, long long 
+k) {
         long long count = 0, sum = 0;
         int l = 0;
         for (int r = 0; r < nums.size(); r++) {
